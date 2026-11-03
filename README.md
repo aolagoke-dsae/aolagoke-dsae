@@ -22,7 +22,7 @@ estimate must lie inside its own Monte Carlo interval.
 
 ## Skills
 
-Python · R · SQL · dbt · DuckDB · machine learning · agent-based modelling ·
+Python · R · SQL · dbt · DuckDB · machine learning (scikit-learn) · agent-based modelling ·
 Monte Carlo and global sensitivity analysis · geospatial data · Tableau
 
 ## Contact
