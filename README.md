@@ -30,6 +30,6 @@ Monte Carlo and global sensitivity analysis · geospatial data · Tableau
 adewoleolagoke@gmail.com ·
 [LinkedIn](https://www.linkedin.com/in/adewole-olagoke-bb267018/) ·
 [ORCID 0000-0002-0869-329X](https://orcid.org/0000-0002-0869-329X) ·
-[Tableau Public](https://public.tableau.com/app/profile/adewole.olagoke)
+[Tableau Public](https://public.tableau.com/app/profile/adewole.olagoke1268)
 
 Open to data science and analytics roles in Germany.
