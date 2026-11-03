@@ -22,8 +22,8 @@ estimate must lie inside its own Monte Carlo interval.
 
 ## Skills
 
-Python · R · SQL · dbt · DuckDB · machine learning · Monte Carlo and global
-sensitivity analysis · geospatial data · Tableau
+Python · R · SQL · dbt · DuckDB · machine learning · agent-based modelling ·
+Monte Carlo and global sensitivity analysis · geospatial data · Tableau
 
 ## Contact
 
