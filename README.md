@@ -1,8 +1,8 @@
 # Dr. Adewole Olagoke
 
-Data scientist with a doctorate in ecological modelling and ten years of
-analysing multivariate time series from heterogeneous, incomplete sources. I
-build pipelines in which uncertainty and provenance are enforced, not assumed:
+Data scientist with a doctorate in quantitative ecology and ecological modelling 
+and ten years of analysing multivariate time series from heterogeneous, incomplete 
+sources. I build pipelines in which uncertainty and provenance are enforced:
 every retrieved payload is stored write-once with its hash, and every point
 estimate must lie inside its own Monte Carlo interval.
 
