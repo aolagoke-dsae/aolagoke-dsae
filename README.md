@@ -8,6 +8,15 @@ estimate must lie inside its own Monte Carlo interval.
 
 ## Projects
 
+- [eu-soil-crop-allocation](https://github.com/aolagoke-dsae/eu-soil-crop-allocation):
+  Which crop is grown where in EU agriculture, and what do lab-measured soil
+  N, P, K and pH add beyond climate and terrain? A crop-allocation model on
+  ~10,000 LUCAS 2018 points, tested against pre-registered hypotheses with
+  spatial block cross-validation.
+- [soil-carbon-kriging](https://github.com/aolagoke-dsae/soil-carbon-kriging):
+  A Python pipeline that maps soil organic carbon and quantifies its uncertainty
+  with ordinary kriging, using data from eight US Midwest fields and Germany’s
+  BZE-LW soil inventory.
 - [grid-carbon-intensity](https://github.com/aolagoke-dsae/grid-carbon-intensity):
   hourly carbon intensity of electricity in DE-LU and France, derived from
   ENTSO-E generation data with published life-cycle factors, and a 90% Monte
