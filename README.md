@@ -6,7 +6,7 @@ time-series analysis and uncertainty analysis, in Python, R and SQL. I coordinat
 consortium of 19 partners in 10 countries, and now build tested, documented
 data products with dbt, DuckDB and Databricks.
 
-Open to permanent data science, analytics engineering and environmental data
+Open to data science, analytics engineering and environmental data
 roles in Germany, from January 2027.
 
 ## Projects
