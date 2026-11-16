@@ -18,12 +18,12 @@ roles in Germany, from January 2027.
   interval (Germany 2025: 352 g CO₂e/kWh, 338–399), correlating at r = 0.9995
   with the independent Fraunhofer ISE series. In build; the capstone of my
   training
-- Probabilistic forecasts of carbon intensity on Databricks: 24-hour LightGBM
-  quantile forecasts with conformal calibration, run as serverless jobs with
-  an MLflow promotion gate. Evaluated once on a held-out period under a plan
+- [grid-carbon-intensity-mlops](https://github.com/aolagoke-dsae/grid-carbon-intensity-mlops):
+  probabilistic 24-hour forecasts of carbon intensity on Databricks. LightGBM
+  quantile models with conformal calibration, run as serverless jobs with an
+  MLflow promotion gate. Evaluated once on a held-out period under a plan
   fixed in advance; all three pre-registered hypotheses were falsified and are
-  reported as such. The repository is private until the data owners' terms
-  are settled
+  reported as such
 - [eudr-geojson-validator](https://github.com/aolagoke-dsae/eudr-geojson-validator):
   the European Commission's GeoJSON file description for the EU Deforestation
   Regulation as executable rules, with a command-line tool and a browser demo.
@@ -43,7 +43,7 @@ roles in Germany, from January 2027.
   which crop is grown where in EU agriculture, and what do lab-measured soil
   N, P, K and pH add beyond climate and terrain? A crop-allocation model on
   about 10,000 LUCAS 2018 points, tested against pre-registered hypotheses
-  with spatial block cross-validation
+  with spatial cross-validation. In progress
 
 ## Skills
 
