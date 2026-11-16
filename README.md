@@ -1,45 +1,60 @@
 # Dr. Adewole Olagoke
 
-Data scientist with a doctorate in quantitative ecology and ecological modelling 
-and ten years of analysing multivariate time series from heterogeneous, incomplete 
-sources. I build pipelines in which uncertainty and provenance are enforced:
-every retrieved payload is stored write-once with its hash, and every point
-estimate must lie inside its own Monte Carlo interval.
+Data scientist with a doctorate in quantitative ecology and ecological
+modelling, and over ten years of statistical modelling, machine learning,
+time-series analysis and uncertainty analysis, in Python, R and SQL. I coordinated data harmonisation and quality assurance across an EU
+consortium of 19 partners in 10 countries, and now build tested, documented
+data products with dbt, DuckDB and Databricks.
+
+Open to permanent data science, analytics engineering and environmental data
+roles in Germany, from January 2027.
 
 ## Projects
 
 - [grid-carbon-intensity](https://github.com/aolagoke-dsae/grid-carbon-intensity):
-  hourly carbon intensity of electricity in DE-LU and France, derived from
-  ENTSO-E generation data with published life-cycle factors, and a 90% Monte
-  Carlo interval at every step. DuckDB, dbt, GitHub Actions. In build; the
-  capstone of my data-science training.
+  a load-shifting decision model for industrial electricity users, on ENTSO-E
+  and SMARD data for Germany and France, 2021–2025. A dbt and DuckDB warehouse
+  with 65 models and tests; hourly carbon intensity with a 90% Monte Carlo
+  interval (Germany 2025: 352 g CO₂e/kWh, 338–399), correlating at r = 0.9995
+  with the independent Fraunhofer ISE series. In build; the capstone of my
+  training
+- Probabilistic forecasts of carbon intensity on Databricks: 24-hour LightGBM
+  quantile forecasts with conformal calibration, run as serverless jobs with
+  an MLflow promotion gate. Evaluated once on a held-out period under a plan
+  fixed in advance; all three pre-registered hypotheses were falsified and are
+  reported as such. The repository is private until the data owners' terms
+  are settled
 - [eudr-geojson-validator](https://github.com/aolagoke-dsae/eudr-geojson-validator):
-  checks EUDR geolocation files against the European Commission's GeoJSON
-  file description. v1.2
-- [heat-risk-hessen](https://github.com/aolagoke-dsae/heat-risk-hessen): heat,
-  mortality and who lives where it's hottest in Hessen, 2000–2025. Hypotheses
-  and data rules fixed before the data; built in February 2027
+  the European Commission's GeoJSON file description for the EU Deforestation
+  Regulation as executable rules, with a command-line tool and a browser demo.
+  v1.3.0 on PyPI; 91 tests on Python 3.10–3.14
 - [soil-carbon-kriging](https://github.com/aolagoke-dsae/soil-carbon-kriging):
-  A Python pipeline that maps soil organic carbon and quantifies its uncertainty
-  with ordinary kriging, using data from eight US Midwest fields and Germany’s
-  BZE-LW soil inventory.
+  soil carbon stocks mapped with their uncertainty. Bayesian kriging at 1,163
+  sites in eight US fields, whose 90% prediction intervals contain 84–91% of
+  held-out values; quantile regression forests for the German Agricultural
+  Soil Inventory (3,104 sites), 13% better than land use alone, with a 1 km
+  map of Germany. Reviewed adversarially before release, with the headline
+  results corrected where they did not hold. v1.2
+- [heat-risk-hessen](https://github.com/aolagoke-dsae/heat-risk-hessen): heat,
+  mortality and who lives where it is hottest in Hessen, 2000–2025. Hypotheses
+  and data rules are fixed before the data; the build is planned for
+  February 2027
 - [eu-soil-crop-allocation](https://github.com/aolagoke-dsae/eu-soil-crop-allocation):
-  Which crop is grown where in EU agriculture, and what do lab-measured soil
+  which crop is grown where in EU agriculture, and what do lab-measured soil
   N, P, K and pH add beyond climate and terrain? A crop-allocation model on
-  ~10,000 LUCAS 2018 points, tested against pre-registered hypotheses with
-  spatial block cross-validation.
+  about 10,000 LUCAS 2018 points, tested against pre-registered hypotheses
+  with spatial block cross-validation
 
 ## Skills
 
-Python · R · SQL · dbt · DuckDB · Databricks . machine learning (scikit-learn) · 
-agent-based modelling · Monte Carlo and global sensitivity analysis · 
-geospatial data · Tableau . PowerBI
+Python · R · SQL · dbt · DuckDB · Databricks (Spark, MLflow) · machine
+learning (scikit-learn, LightGBM, quantile regression forests) · geostatistics
+and Bayesian kriging · Monte Carlo and global sensitivity analysis ·
+agent-based modelling · geospatial data · Tableau · Power BI
 
 ## Contact
 
 adewoleolagoke@gmail.com ·
-[LinkedIn](https://www.linkedin.com/in/adewole-olagoke-bb267018/) ·
+[LinkedIn](https://www.linkedin.com/in/adewole-olagoke) ·
 [ORCID 0000-0002-0869-329X](https://orcid.org/0000-0002-0869-329X) ·
 [Tableau Public](https://public.tableau.com/app/profile/adewole.olagoke1268)
-
-Open to data science and analytics roles in Germany.
